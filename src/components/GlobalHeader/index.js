@@ -6,7 +6,6 @@ const HomepageHeader = styled.div`
     display: flex;
     font-family: 'Cinematografica';
     justify-content: space-between;
-    padding: 0 132px;
     line-height: 18px;
     letter-spacing: 0.03em;
     font-size: 24px;
