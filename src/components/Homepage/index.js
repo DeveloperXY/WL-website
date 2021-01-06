@@ -1,16 +1,17 @@
 import React from "react";
-import styled from "styled-components";
 import FindOutMore from "../FindOutMore";
+import styled from "styled-components";
+import HomepageMainContainer from "../HomepageMainContainer";
 
-export default class Homepage extends React.Component {
+export default function Homepage() {
 
-    constructor(props) {
-        super(props);
-    }
+    const HomepageWrapper = styled.div`
+        display: flex;
+        flex-direction: column;
+    `;
 
-    render() {
-        return <div>
-            <FindOutMore/>
-        </div>
-    }
+    return <HomepageWrapper>
+        <FindOutMore/>
+        <HomepageMainContainer/>
+    </HomepageWrapper>
 }
