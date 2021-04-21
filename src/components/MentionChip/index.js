@@ -11,7 +11,6 @@ export default function MentionChip({body}) {
         color: white;
         font-family: calibri;
         font-size: 12px;
-        margin-top: 12px;
         padding: 2px 18px 2px 18px;
     `;
 
